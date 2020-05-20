@@ -1,10 +1,5 @@
 # Image-Processing
 
-## Affine Transformation
-- Translation
-- Rotation
-- Scaling
-
 ## Segmentation
 - Non Contextual
   - Iterative Thresholding
