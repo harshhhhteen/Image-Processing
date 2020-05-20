@@ -14,9 +14,8 @@
 ## Iterative Thresholding
 
 Iterative Threshold Selection Function implemented in OCTAVE, will also work in MATLAB
--------------------------------------------------------------------------------------
 
-# Algorithm
+##### Algorithm
 ````
 Compute μ1, the mean grey level of the corner pixels
 Compute μ2, the mean grey level of all other pixels
