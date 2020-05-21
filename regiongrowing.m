@@ -15,7 +15,7 @@
 ## <https://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*- 
-## @deftypefn {} {@var{regions} =} regionGrowing (@var{input}, @var{delta},@var{seedList}, @var{neighbour})
+## @deftypefn {} {@var{regions} =} regiongrowing (@var{input}, @var{delta},@var{seedList}, @var{neighbour})
 ##
 ## @seealso{}
 ## @end deftypefn
@@ -23,7 +23,7 @@
 ## Author: Harshit <harshhhhteen@Lenovo-ideapad-310-15IKB>
 ## Created: 2020-05-20
 
-function regions = regionGrowing (input, delta, seedList, neighbour)
+function regions = regiongrowing (input, delta, seedList, neighbour)
 %input- is the 2D grayscale image matrix
 %delta- threshold value
 %seedList- nx2 matrix, having initial seeds. n is number of seeds. First column is x co-ordinate and second column is y coordinate
