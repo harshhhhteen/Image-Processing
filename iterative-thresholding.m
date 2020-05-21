@@ -15,7 +15,7 @@
 ## <https://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*- 
-## @deftypefn {} {@var{delta} =} iterativeThreshold (@var{input})
+## @deftypefn {} {@var{delta} =} iterativethresholding (@var{input})
 ##
 ## @seealso{}
 ## @end deftypefn
@@ -23,7 +23,7 @@
 ## Author: Harshit <harshhhhteen@Lenovo-ideapad-310-15IKB>
 ## Created: 2020-05-20
 
-function delta = iterativeThreshold (input)
+function delta = iterativethresholding (input)
 %input- is the 2D grayscale image matrix
 %delta- is the return threshold value
   [n,m] = size(input);
